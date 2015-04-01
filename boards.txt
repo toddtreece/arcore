@@ -4,7 +4,7 @@ menu.cpu=Processor
 
 ##############################################################
 
-leonardo.name=Arduino Leonardo (arcore)
+leonardo.name=Arduino Leonardo (MIDI)
 leonardo.vid.0=0x2341
 leonardo.pid.0=0x0036
 leonardo.vid.1=0x2341
@@ -39,7 +39,7 @@ leonardo.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
-leonardo2.name=Arduino Leonardo (arcore, iPad compatible)
+leonardo2.name=Arduino Leonardo (MIDI, iPad compatible)
 leonardo2.upload.tool=avrdude
 leonardo2.upload.protocol=avr109
 leonardo2.upload.maximum_size=28672
@@ -69,7 +69,7 @@ leonardo2.build.extra_flags={build.usb_flags} -DIPAD_COMPAT
 
 ##############################################################
 
-micro.name=Arduino Micro (arcore)
+micro.name=Arduino Micro (MIDI)
 micro.upload.tool=avrdude
 micro.upload.protocol=avr109
 micro.upload.maximum_size=28672
@@ -100,7 +100,7 @@ micro.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
-baretouch.name=Bare Conductive Touch Board (arcore, iPad compatible)
+baretouch.name=Bare Conductive Touch Board (MIDI, iPad compatible)
 baretouch.vid.0=0x2A6E
 baretouch.pid.0=0x0003
 baretouch.vid.1=0x2A6E
@@ -137,7 +137,7 @@ baretouch.variant=arduino:standard
 
 ##############################################################
 
-bhoreal.name=Bhoreal Slim (arcore, iPad compatible)
+bhoreal.name=Bhoreal Slim (MIDI, iPad compatible)
 bhoreal.vid.0=0x2341
 bhoreal.pid.0=0x0036
 bhoreal.vid.1=0x1d50
