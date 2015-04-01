@@ -33,6 +33,8 @@ leonardo.build.pid=0x8036
 leonardo.build.board=AVR_LEONARDO
 leonardo.build.core=arcore
 leonardo.build.variant=arduino:leonardo
+leonardo.build.usb_product="Arduino Leonardo"
+leonardo.build.usb_manufacturer="Arduino"
 leonardo.build.extra_flags={build.usb_flags}
 
 ##############################################################
@@ -61,6 +63,8 @@ leonardo2.build.pid=0x8036
 leonardo2.build.board=AVR_LEONARDO
 leonardo2.build.core=arcore
 leonardo2.build.variant=arduino:leonardo
+leonardo2.build.usb_product="Arduino Leonardo"
+leonardo2.build.usb_manufacturer="Arduino"
 leonardo2.build.extra_flags={build.usb_flags} -DIPAD_COMPAT
 
 ##############################################################
@@ -87,10 +91,11 @@ micro.build.mcu=atmega32u4
 micro.build.f_cpu=16000000L
 micro.build.vid=0x2341
 micro.build.pid=0x8037
-micro.build.usb_product="Arduino Micro"
 micro.build.board=AVR_MICRO
 micro.build.core=arcore
 micro.build.variant=arduino:micro
+micro.build.usb_product="Arduino Micro"
+micro.build.usb_manufacturer="Arduino"
 micro.build.extra_flags={build.usb_flags}
 
 ##############################################################

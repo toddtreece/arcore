@@ -10,23 +10,6 @@ needing to clone the entire Arduino repository.
 Currently the only addition is support for MIDI-USB for the Arduino Leonardo and similar boards, but this should
 serve as a good base for other modifications to the cores libraries. Let me know if you do anything interesting with this!
 
-## Installation and Usage
-
-Version 1.5.4 (or greater) of the Arduino IDE is required to build projects with this library.
-
-1. Clone this repository.
-2. On Linux, run `./install.sh`. The script creates a symlink in ~/Arduino/hardware to the hardware folder in repository. On Windows or Mac you have
-   to do this manually (you may copy the hardware folder there instead of creating a symlink).
-3. Launch the Arduino IDE (only tested on 1.5.7, will not work pre-1.5.x).
-4. Under Tools -> Board, select Arduino Leonardo (arcore).
-5. Upload your sketch as usual.
-
-
-### Update 2014-12-18
-
-The folder structure has changed. If you previously used this project, you will have
-to run `./install.sh` again.
-
 ## MIDI-USB support
 
 This fork currently contains a basic version of USB-MIDI support. It it still under development, and the API should be considered unstable.
@@ -36,7 +19,6 @@ The implementation currently has a single IN and a single OUT endpoint. It can b
 
 Currently there are no high-level API's. However, the MIDI event format is very simple to read and write (see examples below).
 For more info on the MIDI-USB event format, see the official [USB-MIDI specification][2].
-
 
 ### Send a note-on and note-off every two seconds
 
