@@ -5,7 +5,7 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
 name=Leonardo & Micro MIDI-USB (arcore)
-version=1.6.2
+version=1.0.0
 
 # AVR compile variables
 # --------------------- 
